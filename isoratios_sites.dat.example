@@ -1,0 +1,17 @@
+# Example of isoratios.dat file. The only important values for the oneEventMC.py script are the "tag" field
+# the I-129 yield (in number) and the Cm-247 yield (in number). They are positional values, such that the
+# I-129 yield should be in the second-to-last position, the Cm-247 should be in the last position, and
+# the "tag" is any number of strings before the fifth-to-last position.
+#
+# From the "tag" field, the only relevant information is whether is "dyn", "MHD" or "Disk", in order to
+# choose the kind of delta distribution (long, short or mix) for the MC runs.
+#
+# The example file starts after the line of "==="
+# ================================================================================================================================
+# 1-3: site + mass model + fission fragment dist 4: I129/I127 5: Cm247/U235 6: I129/Cm247 7: I129 8: Cm247
+
+dyn. NSNS (B) + DZ10 + ABLA07             x.xxxxxxxxxxxxxxxx     x.xxxxxxxxxxxxxxxxx     xxxx                  y.yyye-y   y.yyye-y
+
+MHD SN + DZ10 + ABLA07                    x.xxxxxxxxxxxxxxxx     x.xxxxxxxxxxxxxxxxx     xxxx                  y.yyye-y   y.yyye-y
+
+Disk def + DZ10 + ABLA07                  x.xxxxxxxxxxxxxxxx     x.xxxxxxxxxxxxxxxxx     xxxx                  y.yyye-y   y.yyye-y

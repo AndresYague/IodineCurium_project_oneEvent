@@ -1,0 +1,7 @@
+# Program options
+nRuns = 1e6         # Number of runs for the MC experiment
+gamma = 1.00e8      # Choosen gamma (in years) for non-mixed deltas
+gammaMix = 2.00e8   # Choosen gamma (in years) for mixed deltas. Should always be double of gamma
+writeEnd = False    # Wether to write to a file (True) or print to terminal (False)
+diskIs = long       # can be long, short or mix, delta distribution for the disk
+myrsBack = 100      # can be 0 (ESS values), 100 or 200 Myr back-decay from ESS values
