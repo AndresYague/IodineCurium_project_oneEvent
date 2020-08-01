@@ -2,6 +2,11 @@ IodineCurium_project_oneEvent
 
 Public version of the MonteCarlo code for the one event probability calculation for the Iodine and Curium project
 
+This code was developed by:
+Andrés Yagüe López (https://github.com/AndresYague)
+Blanka Világos
+Benoit Côté (https://github.com/becot85)
+
 ==========How to use=========
 
 Once the database directory (see README.txt file in there) contains the
