@@ -4,7 +4,7 @@ Public version of the MonteCarlo code for the one event probability calculation 
 
 This code was developed by:
 Andrés Yagüe López (https://github.com/AndresYague)
-Blanka Világos
+Blanka Világos (https://github.com/vblanka24)
 Benoit Côté (https://github.com/becot85)
 
 ==========How to use=========
